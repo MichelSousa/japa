@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6" id="topbar-top-left">
-                        <a href="#contacts" class="footer-label uppercase"><span class="button button-icon button-clear pull-left"><i class="fa fa-briefcase"></i></span><span class="pull-left">Hire me now!</span></a>
+                        <a href="#contacts" class="footer-label uppercase"><span class="button button-icon button-clear pull-left"><i class="fa fa-briefcase"></i></span><span class="pull-left">Contrate-me agora!</span></a>
                     </div>
                     <div class="col-lg-6 col-md-6 text-right">
                         <div class="pull-right" id="topbar-top-right">
