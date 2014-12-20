@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" id="js_composer_front-css" href="<?php bloginfo("template_url")?>/css/js_composer.css" type="text/css" media="all">
 <link rel="stylesheet" id="tb-bootstrap-css" href="<?php bloginfo("template_url")?>/css/bootstrap.css" type="text/css" media="all">
-<link rel="stylesheet" id="tb-fontawesome-css" href="Big%20Boxes%20_%20Savannah_arquivos/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="tb-fontawesome-css" href="<?php bloginfo("template_url")?>/css/font-awesome.css" type="text/css" media="all">
 <link rel="stylesheet" id="tb-animate-css" href="<?php bloginfo("template_url")?>/css/animate.css" type="text/css" media="all">
 <link rel="stylesheet" id="tb-styles-css" href="<?php bloginfo("template_url")?>/css/styles_002.css" type="text/css" media="all">
 

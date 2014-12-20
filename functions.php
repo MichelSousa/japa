@@ -7,6 +7,7 @@ set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions 
 
 
 add_image_size( 'blog', 675,448); 
+add_image_size( 'mini-sidebar', 66,44); 
 
 add_image_size( 'img-grande', 363,363); 
 
@@ -100,12 +101,14 @@ function theme_widgets_init() {
  register_sidebar( array (
  'name' => 'Sidebar',
  'id' => 'sidebar',
- 'before_title' => '<h2  class="title-sidebar">',
-  'after_title'  => '</h2>'
+ 'before_title' => '<div class="sub-heading">',
+  'after_title'  => '</div>',
+  'before_widget' => '',
+  'after_widget'  => '',
+
 
   ) );
 
- 
 
 
 } // end theme_widgets_init
