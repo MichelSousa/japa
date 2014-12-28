@@ -1918,3 +1918,15 @@ a.top-bar-margin-left {
 {
 	text-transform: uppercase;
 }
+
+.topbar .container 
+{
+    float: left;
+    clear: both;
+}
+
+.wpb_wrapper
+{
+    text-align: center;
+    width: 100%;
+}

@@ -13,7 +13,6 @@ add_image_size( 'img-grande', 363,363);
 
 
 
-
 if ( function_exists( 'register_nav_menu' ) ) {
 register_nav_menu( 'primary', 'Este é meu primeiro menu' );
 
@@ -109,6 +108,45 @@ function theme_widgets_init() {
 
   ) );
 
+ register_sidebar( array (
+ 'name' => 'Widget Topo',
+ 'id' => 'topo',
+ 'before_title' => '<div class="sub-heading">',
+  'after_title'  => '</div>',
+  'before_widget' => '<div class="vc_col-sm-4 wpb_column vc_column_container">
+    <div class="wpb_wrapper">',
+  'after_widget'  => '</div></div>',
+
+
+  ) );
+
+  register_sidebar( array (
+ 'name' => 'Footer',
+ 'id' => 'footer',
+ 'before_title' => '',
+  'after_title'  => '',
+  'before_widget' => '',
+  'after_widget'  => '',
+
+
+  ) );
+
+
+
+
+  register_sidebar( array (
+ 'name' => 'Rede Social topo',
+ 'id' => 'socialtopo',
+ 'before_title' => '',
+  'after_title'  => '',
+  'before_widget' => '<div class="vc_col-sm-4 wpb_column vc_column_container">
+    <div class="wpb_wrapper">',
+  'after_widget'  => '</div></div>',
+
+
+  ) );
+
+
 
 
 } // end theme_widgets_init
@@ -170,10 +208,9 @@ function theme_name_wp_title( $title, $sep ) {
 add_filter( 'wp_title', 'theme_name_wp_title', 10, 2 );
 
 
-
-
-
 include_once('inc/shortcodes.php');
+
+
 
 
 ?>  

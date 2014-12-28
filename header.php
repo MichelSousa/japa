@@ -10,7 +10,7 @@
     <!-- Basic page information -->
     <meta name="author" content="">
     <meta name="description" content="Savannah May">
-    <title>Blog da Japa</title>
+    <title><?php if(is_home()) { echo bloginfo('name'); } else { wp_title(''); } ?></title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href=""><link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
@@ -91,89 +91,15 @@
                 </a>
                 <div class="expandable-content">
                     <div class="expandable-content-inner">
-<div class="container "><div class="vc_row wpb_row vc_row-fluid">
-	<div class="vc_col-sm-4 wpb_column vc_column_container">
-		<div class="wpb_wrapper">
-			<div class="sub-heading">Latest posts</div><div class="iconed">
-    <i class="iconed-icon fa fa-book"></i>
-    <div class="iconed-content">
-        <div class="tbs_vc_widget tbs_vc_wp_posts wpb_content_element"><div class="widget"><ul class="list list-sided"><li><a href="http://savannah-wp.tonybogdanov.com/freelancing/">Freelancing</a><div class="stamp color-darker pull-right"><span class="post-date">Nov 7, 2014</span></div></li><li><a href="http://savannah-wp.tonybogdanov.com/old-cheese/">Old Cheese</a><div class="stamp color-darker pull-right"><span class="post-date">Nov 7, 2014</span></div></li><li><a href="http://savannah-wp.tonybogdanov.com/the-sunset/">The Sunset</a><div class="stamp color-darker pull-right"><span class="post-date">Nov 7, 2014</span></div></li><li><a href="http://savannah-wp.tonybogdanov.com/blonde-by-nature/">Blonde By Nature</a><div class="stamp color-darker pull-right"><span class="post-date">Nov 7, 2014</span></div></li><li><a href="http://savannah-wp.tonybogdanov.com/lonely-autumn/">Lonely Autumn</a><div class="stamp color-darker pull-right"><span class="post-date">Nov 7, 2014</span></div></li></ul></div></div>    </div>
-</div>
-		</div> 
-	</div> 
+<div class="container ">
+    
 
-	<div class="vc_col-sm-4 wpb_column vc_column_container">
-		<div class="wpb_wrapper">
-			<div class="sub-heading">Twitter Widget</div><div class="iconed">
-    <i class="iconed-icon fa fa-twitter"></i>
-    <div class="iconed-content">
-        <div class="roller">
-    <ul class="list no-style roller-list">
-                    <li>
-                <p class="small condensed">&lt;a href=&quot;http://twitter.com/ItsKimmyLee&quot; title=&quot;Kimmy Lee&quot; class=&quot;user-mention&quot;&gt;ItsKimmyLee&lt;/a&gt; Hi, that can be achieved with some additional CSS added in the theme settings. Please, contact me form &lt;a href=&quot;http://t.co/kQ5Kof8e2I&quot; title=&quot;http://themeforest.net/item/savannah-responsive-wordpress-vcard-portfolio/9475148/support&quot;&gt;themeforest.net/item/savannah-…&lt;/a&gt;</p>
-                <p class="small condensed color-darker">1 week ago, <a href="http://twitter.com/tony_bogdanov" title="Tony Bogdanov">@tony_bogdanov</a></p>
-            </li>
-                    <li>
-                <p class="small condensed">&lt;a href=&quot;http://twitter.com/ItsKimmyLee&quot; title=&quot;Kimmy Lee&quot; class=&quot;user-mention&quot;&gt;ItsKimmyLee&lt;/a&gt; Where, which theme?</p>
-                <p class="small condensed color-darker">1 week ago, <a href="http://twitter.com/tony_bogdanov" title="Tony Bogdanov">@tony_bogdanov</a></p>
-            </li>
-                    <li>
-                <p class="small condensed">Check out this powerful &lt;a href=&quot;http://twitter.com/hashtag/wordpress?src=hash&quot; class=&quot;hashtag&quot;&gt;wordpress&lt;/a&gt; version of my &lt;a href=&quot;http://twitter.com/hashtag/savannah?src=hash&quot; class=&quot;hashtag&quot;&gt;savannah&lt;/a&gt; template: &lt;a href=&quot;http://t.co/NXoKtxss7z&quot; title=&quot;http://themeforest.net/item/savannah-responsive-wordpress-vcard-portfolio/9475148&quot;&gt;themeforest.net/item/savannah-…&lt;/a&gt; Enjoy! &lt;a href=&quot;http://t.co/6rZuH6ODy8&quot; title=&quot;http://twitter.com/tony_bogdanov/status/535339608855576577/photo/1&quot;&gt;pic.twitter.com/6rZuH6ODy8&lt;/a&gt;</p>
-                <p class="small condensed color-darker">3 weeks ago, <a href="http://twitter.com/tony_bogdanov" title="Tony Bogdanov">@tony_bogdanov</a></p>
-            </li>
-            </ul>
-    <a href="#" class="button button-small button-icon roller-prev"><i class="fa fa-chevron-left"></i></a>
-    <a href="#" class="button button-small button-icon roller-next"><i class="fa fa-chevron-right"></i></a>
-</div>
-    </div>
-</div>
-		</div> 
-	</div> 
+    <div class="vc_row wpb_row vc_row-fluid">
+	
 
-	<div class="vc_col-sm-4 wpb_column vc_column_container">
-		<div class="wpb_wrapper">
-			<div class="sub-heading">Flickr Widget</div><div class="iconed">
-    <i class="iconed-icon fa fa-flickr"></i>
-    <div class="iconed-content">
-        <div class="flickr-feed">
-    <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="flickr-feed-item">
-                    <a href="https://www.flickr.com/photos/52617155@N08/15647274066">
-                        <img src="https://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_q.jpg" alt="" /><span class="hover"></span></a>
-                </div>
-            </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="flickr-feed-item">
-                    <a href="https://www.flickr.com/photos/52617155@N08/15485436268">
-                        <img src="https://farm4.staticflickr.com/3945/15485436268_846ccca178_q.jpg" alt="" /><span class="hover"></span></a>
-                </div>
-            </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="flickr-feed-item">
-                    <a href="https://www.flickr.com/photos/52617155@N08/15668911091">
-                        <img src="https://farm4.staticflickr.com/3956/15668911091_4ef20118b5_q.jpg" alt="" /><span class="hover"></span></a>
-                </div>
-            </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="flickr-feed-item">
-                    <a href="https://www.flickr.com/photos/52617155@N08/15484954949">
-                        <img src="https://farm6.staticflickr.com/5605/15484954949_a4e97a9dc5_q.jpg" alt="" /><span class="hover"></span></a>
-                </div>
-            </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="flickr-feed-item">
-                    <a href="https://www.flickr.com/photos/52617155@N08/15647103116">
-                        <img src="https://farm8.staticflickr.com/7490/15647103116_1e4b9033f0_q.jpg" alt="" /><span class="hover"></span></a>
-                </div>
-            </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                <div class="flickr-feed-item">
-                    <a href="https://www.flickr.com/photos/52617155@N08/15668909741">
-                        <img src="https://farm6.staticflickr.com/5599/15668909741_eaf3db4054_q.jpg" alt="" /><span class="hover"></span></a>
-                </div>
-            </div>
-            </div>
+	 <?php dynamic_sidebar( "topo" ); ?> 
+
+	
 </div>
     </div>
 </div>
@@ -189,8 +115,8 @@
     <div id="hero" data-multibackground=""  data-multibackground-layer-0-type="image" data-multibackground-layer-0-url="http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/hero.jpg" data-multibackground-layer-0-attachment="parallax" data-multibackground-layer-0-parallaxspeed="1.0" data-multibackground-layer-0-transitionloaded="linear,500" data-multibackground-layer-1-type="pattern" data-multibackground-layer-1-url="http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/overlay.png" data-multibackground-layer-1-attachment="fixed" data-multibackground-layer-1-transitionloaded="linear,0">
         <div class="container">
             <div class="content padding-top padding-tq-bottom text-center">
-                <div class="hero-heading uppercase"><span>Savannah May</span></div>
-                <div class="hero-subheading uppercase" data-rotate-1="Beautiful person" data-rotate-2="Amateur guitar player" data-rotate-speed="5000" data-rotate-delay="0">Professional Photographer</div>
+                <div class="hero-heading uppercase"><span><?php if(is_home()) { echo bloginfo('name'); } else { wp_title(''); } ?> </span></div>
+                <div class="hero-subheading uppercase" data-rotate-1="Beautiful person" data-rotate-2="Amateur guitar player" data-rotate-speed="5000" data-rotate-delay="0"><?php bloginfo('description'); ?></div>
                 <div class="hero-amp" data-rotate-1="&amp;" data-rotate-2="&amp;" data-rotate-speed="5000" data-rotate-delay="300">&amp;</div>
                 <div class="hero-handscript lowercase" data-rotate-1="People lover" data-rotate-2="Awesome story teller" data-rotate-speed="5000" data-rotate-delay="600">Graphic designer</div>
                 <div id="hero-cover-space" class="cover-space hidden-sm hidden-xs"></div>
@@ -217,32 +143,47 @@
                 <a href="http://savannah-wp.tonybogdanov.com/#body" class="navbar-brand"><span id="tagline">Savannah May</span></a>
             </div>
             <div class="collapse navbar-collapse">
-<ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="/#about-me"><span>About Me<span class="tl"></span><span class="br"></span></span></a></li>
-<li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="/#portfolio"><span>Portfolio<span class="tl"></span><span class="br"></span></span></a></li>
-<li id="menu-item-180" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-180"><a href="/#blog"><span>Blog<span class="tl"></span><span class="br"></span></span></a>
-<ul class="sub-menu">
-	<li id="menu-item-189" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-189"><a href="#"><span>Full Width</span></a>
-	<ul class="sub-menu">
-		<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="http://savannah-wp.tonybogdanov.com/big-boxes/"><span>Big Boxes</span></a></li>
-		<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="http://savannah-wp.tonybogdanov.com/small-boxes/"><span>Small Boxes</span></a></li>
-	</ul>
-</li>
-	<li id="menu-item-203" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-203"><a href="#"><span>Left Sidebar</span></a>
-	<ul class="sub-menu">
-		<li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="http://savannah-wp.tonybogdanov.com/big-boxes-2/"><span>Big Boxes</span></a></li>
-		<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="http://savannah-wp.tonybogdanov.com/small-boxes-2/"><span>Small Boxes</span></a></li>
-	</ul>
-</li>
-	<li id="menu-item-213" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-213 active"><a href="#"><span>Right Sidebar</span></a>
-	<ul class="sub-menu">
-		<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-204 menu-item-212 active"><a href="http://savannah-wp.tonybogdanov.com/big-boxes-3/"><span>Big Boxes</span></a></li>
-		<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="http://savannah-wp.tonybogdanov.com/small-boxes-3/"><span>Small Boxes</span></a></li>
-	</ul>
-</li>
-	<li id="menu-item-214" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-214"><a href="/acoustic-guitar"><span>Single Post</span></a></li>
-</ul>
-</li>
-<li id="menu-item-216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216"><a href="/#contacts"><span>Contacts<span class="tl"></span><span class="br"></span></span></a></li>
-</ul>            </div>
+                
+                 <ul class="nav navbar-nav">
+
+                    <?php 
+
+
+
+                                $defaults = array(
+                                    'theme_location'  => '',
+                                    'menu'            => false,
+                                    'container' => false,
+                                    'container_class' => '',
+                                    'container_id'    => '',
+                                    
+                                    'menu_class'      => '',
+                                    'menu_id'         => '',
+                                    'echo'            => true,
+                                    'fallback_cb'     => '',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '<span>',
+                                    'link_after'      => '<span class="tl"></span>
+                                                            <span class="br"></span>
+                                                            </span>',
+                                    'items_wrap'      => '%3$s',
+                                    'depth'           => 0,
+                                    'walker'          => ''
+                                );
+
+                               wp_nav_menu( $defaults );
+
+
+
+
+
+                    ?>
+
+                          
+                    </ul>
+
+
+          </div>
         </div>
     </nav>
