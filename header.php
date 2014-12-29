@@ -68,15 +68,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6" id="topbar-top-left">
-                        <a href="#contacts" class="footer-label uppercase"><span class="button button-icon button-clear pull-left"><i class="fa fa-briefcase"></i></span><span class="pull-left">Contrate-me agora!</span></a>
+                        <a href="#contacts" class="footer-label uppercase"><span class="button button-icon button-clear pull-left">
+                            <i class="fa fa-briefcase"></i></span><span class="pull-left">Contrate-me agora!</span></a>
                     </div>
                     <div class="col-lg-6 col-md-6 text-right">
+
                         <div class="pull-right" id="topbar-top-right">
-                        <a href="http://facebook.com/tony.bogdanov.9" class="footer-label uppercase" target="_blank"><span class="button button-icon button-clear pull-left"><i class="fa fa-facebook"></i></span></a>
-                        <a href="http://twitter.com/tony_bogdanov" class="footer-label uppercase" target="_blank"><span class="button button-icon button-clear pull-left"><i class="fa fa-twitter"></i></span></a>
-                        <a href="http://plus.google.com/104315383192649358641" class="footer-label uppercase" target="_blank"><span class="button button-icon button-clear pull-left"><i class="fa fa-google-plus"></i></span></a>
-                        <a href="#" class="footer-label uppercase" target="_blank"><span class="button button-icon button-clear pull-left"><i class="fa fa-pinterest"></i></span></a>
-                        <a href="#" class="footer-label uppercase" target="_blank"><span class="button button-icon button-clear pull-left"><i class="fa fa-dribbble"></i></span></a>
+                             <?php dynamic_sidebar( "socialtopo" ); ?> 
+                        
                         </div>
                     </div>
                 </div>
@@ -125,7 +124,7 @@
         <div id="hero-cover" class="cover hidden-sm hidden-xs">
             <div class="one"></div>
             <div class="two"></div>
-            <img src="http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/12/cover-tbs-cover.png" alt="" />
+            <img src="<?php echo get_theme_mod("theme_logo_image") ?>" alt="" />
         </div>
     </div>
 

@@ -139,8 +139,7 @@ function theme_widgets_init() {
  'id' => 'socialtopo',
  'before_title' => '',
   'after_title'  => '',
-  'before_widget' => '<div class="vc_col-sm-4 wpb_column vc_column_container">
-    <div class="wpb_wrapper">',
+  'before_widget' => '',
   'after_widget'  => '</div></div>',
 
 
