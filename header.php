@@ -114,7 +114,7 @@
     <div id="hero" data-multibackground=""  data-multibackground-layer-0-type="image" data-multibackground-layer-0-url="http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/hero.jpg" data-multibackground-layer-0-attachment="parallax" data-multibackground-layer-0-parallaxspeed="1.0" data-multibackground-layer-0-transitionloaded="linear,500" data-multibackground-layer-1-type="pattern" data-multibackground-layer-1-url="http://savannah-wp.tonybogdanov.com/wp-content/uploads/2014/11/overlay.png" data-multibackground-layer-1-attachment="fixed" data-multibackground-layer-1-transitionloaded="linear,0">
         <div class="container">
             <div class="content padding-top padding-tq-bottom text-center">
-                <div class="hero-heading uppercase"><span><?php if(is_home()) { echo bloginfo('name'); } else { wp_title(''); } ?> </span></div>
+                <div class="hero-heading uppercase"><span><?php echo get_theme_mod("theme_logo_image_2") ?> </span></div>
                 <div class="hero-subheading uppercase" data-rotate-1="Beautiful person" data-rotate-2="Amateur guitar player" data-rotate-speed="5000" data-rotate-delay="0"><?php bloginfo('description'); ?></div>
                 <div class="hero-amp" data-rotate-1="&amp;" data-rotate-2="&amp;" data-rotate-speed="5000" data-rotate-delay="300">&amp;</div>
                 <div class="hero-handscript lowercase" data-rotate-1="People lover" data-rotate-2="Awesome story teller" data-rotate-speed="5000" data-rotate-delay="600">Graphic designer</div>

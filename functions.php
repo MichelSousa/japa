@@ -67,6 +67,25 @@ $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'them
 
 
 
+//===================== Upload do logotipo
+
+$wp_customize->add_section( 'theme_image_2' , array(
+     'title'     => __( 'Logo Principal', 'theme' ),
+      'description'   => 'Modifique o logo',
+) );
+
+$wp_customize->add_setting( 'theme_logo_image_2' , array(
+    'default'     => '',
+) );
+
+$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'theme_logo_image_2', array(
+  'label'        => __( 'Logo', 'theme' ),
+  'section'    => 'theme_image_2',
+  'settings'   => 'theme_logo_image_2',
+) ) );
+
+
+
 
 //===================== Número de telefone
 
