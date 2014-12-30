@@ -9,7 +9,7 @@
 			
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
-			<h4><span style="color: #c2973c;">BLOG DA JAPA</span></h4>
+			<h4><span style="color: #EC268F;">BLOG DA JAPA</span></h4>
 
 		</div> 
 	</div> 
